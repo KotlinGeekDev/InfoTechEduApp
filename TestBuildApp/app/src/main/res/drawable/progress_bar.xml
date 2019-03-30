@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/progress">
+        <rotate android:toDegrees="360">
+            <shape
+                android:shape="ring"
+                android:innerRadius="35dp"
+                android:thickness="10dp">
+                <gradient
+                    android:type="radial"
+                    android:gradientRadius="100"
+                    android:startColor="#dcdc0b"
+                    android:endColor="#00d4ff"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
