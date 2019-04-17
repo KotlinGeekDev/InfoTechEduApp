@@ -10,6 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.content.Intent;
+
+import tk.infotech.courses.android.mobileapps.testbuildapp.main.information.AppInformation;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -79,6 +82,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
 
         }  else if (id == R.id.nav_send) {
+
+            Intent informationIntent = new Intent(MainActivity.this, AppInformation.class);
+            startActivity(informationIntent);
 
         }
 
