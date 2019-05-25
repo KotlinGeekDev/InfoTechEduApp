@@ -9,7 +9,7 @@ import android.widget.ImageView;
 public class LaunchingActivity extends AppCompatActivity {
 
     private ImageView logo;
-    private static int timeout = 4500;
+    private static int timeout = 5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
