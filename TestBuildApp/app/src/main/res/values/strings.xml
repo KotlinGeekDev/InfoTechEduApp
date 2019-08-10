@@ -7,4 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="logo_description">The app\'s present logo</string>
+    <string name="default_chapter_name_text">Nom du chapitre</string>
+    <string name="default_course_video_text">Nom du cours</string>
+    <string name="default_video_duration_text">Duree</string>
 </resources>

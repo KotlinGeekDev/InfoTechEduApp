@@ -15,6 +15,8 @@ public class AppInformation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_information);
 
+        getSupportActionBar();
+
         appInfoDescription = findViewById(R.id.developer_info);
         webpageInfoDescription = findViewById(R.id.company_webpage_info);
 

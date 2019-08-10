@@ -9,7 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".main.information.AppInformation"></activity>
+        <activity android:name=".CourseChaptersActivity"
+            android:label="Chapitres"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.infotech.courses.android.mobileapps.testbuildapp.MainActivity" />
+        </activity>
+        <activity android:name=".VideoCoursesActivity" />
+        <activity
+            android:name=".main.information.AppInformation"
+            android:label="A propos"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="tk.infotech.courses.android.mobileapps.testbuildapp.MainActivity" />
+        </activity>
         <activity android:name=".LaunchingActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
