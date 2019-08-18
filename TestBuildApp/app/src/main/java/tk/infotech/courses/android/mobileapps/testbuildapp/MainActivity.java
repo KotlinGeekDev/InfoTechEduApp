@@ -74,7 +74,8 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_video_icon) {
-            // Handle the camera action
+            Intent videoActivityIntent = new Intent(this, VideoCoursesActivity.class);
+            startActivity(videoActivityIntent);
         } else if (id == R.id.nav_course) {
 
             Intent chaptersIntent = new Intent(this, CourseChaptersActivity.class);
