@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import tk.infotech.courses.android.mobileapps.testbuildapp.models.Chapter;
+
 public class ChapterRecyclerViewAdapter extends RecyclerView.Adapter<ChapterRecyclerViewAdapter.ChapterViewHolder>{
 
     private Context mContext;

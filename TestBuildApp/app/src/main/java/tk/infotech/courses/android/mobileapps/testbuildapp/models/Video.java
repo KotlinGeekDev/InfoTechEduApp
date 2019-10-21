@@ -1,4 +1,4 @@
-package tk.infotech.courses.android.mobileapps.testbuildapp;
+package tk.infotech.courses.android.mobileapps.testbuildapp.models;
 
 public class Video {
     private String videoName;

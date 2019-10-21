@@ -8,6 +8,8 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
+import tk.infotech.courses.android.mobileapps.testbuildapp.models.Video;
+
 public class VideoCoursesActivity extends AppCompatActivity {
 
     private GridLayoutManager mVideosLayoutManager;

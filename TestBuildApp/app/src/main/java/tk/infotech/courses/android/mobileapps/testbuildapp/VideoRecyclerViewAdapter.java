@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import java.util.List;
 
+import tk.infotech.courses.android.mobileapps.testbuildapp.models.Video;
+
 public class VideoRecyclerViewAdapter extends RecyclerView.Adapter<VideoRecyclerViewAdapter.VideoViewHolder>{
 
     private Context mVideoViewContext;
